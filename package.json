@@ -20,14 +20,14 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.24.3",
+    "@modelcontextprotocol/sdk": "^1.1.1",
     "googleapis": "^129.0.0",
     "ytdl-core": "^4.11.5",
     "youtube-transcript": "^1.0.6"
   },
   "devDependencies": {
-    "@types/node": "^22.19.2",
-    "typescript": "^5.9.3",
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0",
     "ts-node": "^10.9.1",
     "nodemon": "^3.0.0"
   },
