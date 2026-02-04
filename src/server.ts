@@ -1,4 +1,4 @@
-import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { Server } from '@modelcontextprotocol/sdk/server';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import {
     CallToolRequestSchema,
@@ -19,7 +19,7 @@ import {
 } from './types.js';
 
 export async function startMcpServer() {
-    const server = new McpServer(
+    const server = new Server(
         {
             name: 'zubeid-youtube-mcp-server',
             version: '1.0.0',
